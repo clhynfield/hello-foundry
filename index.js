@@ -8,8 +8,8 @@ var listenPort = process.env.VCAP_APP_PORT || 8000;
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'});
-  response.end('Hello World\n');
-  response.write(process.env.VCAP_SERVICES);
+  response.end('Hello, Foundry!\n');
+  response.write('VCAP_SERVICES: ' + process.env.VCAP_SERVICES);
   console.log('Another happy world served!');
 });
 

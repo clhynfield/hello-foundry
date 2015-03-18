@@ -1,11 +1,15 @@
 {
-  "name": "hello-world-node",
+  "name": "hello-foundry",
   "version": "0.0.1",
-  "description": "Hell World for Node.js",
-  "author": "Clayton Hynfield",
+  "description": "Hello World for Node.js on Cloud Foundry",
+  "author": "@clayton",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.org/clhynfield/hello-foundry.git"
   },
   "dependencies": {},
   "devDependencies": {}

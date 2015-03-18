@@ -1,6 +1,6 @@
 ---
 applications:
-- name: hello-smoke
+- name: hello-foundry
   command: npm start
   instances: 1
   memory: 128MB
