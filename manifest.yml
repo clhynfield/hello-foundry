@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-smoke
+  command: npm start
+  instances: 1
+  memory: 128MB
+  disk: 128MB
