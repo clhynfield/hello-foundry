@@ -4,4 +4,4 @@ applications:
   command: npm start
   instances: 1
   memory: 128MB
-  disk: 128MB
+  disk_quota: 128MB
