@@ -9,6 +9,7 @@ var listenPort = process.env.VCAP_APP_PORT || 8000;
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'});
   response.end('Hello World\n');
+  response.write(process.env.VCAP_SERVICES);
   console.log('Another happy world served!');
 });
 
