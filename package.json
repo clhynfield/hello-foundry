@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-node",
+  "version": "0.0.1",
+  "description": "Hell World for Node.js",
+  "author": "Clayton Hynfield",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
